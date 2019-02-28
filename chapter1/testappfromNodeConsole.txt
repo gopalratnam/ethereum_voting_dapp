@@ -1,0 +1,5 @@
+> deployedContract.methods
+
+> deployedContract.methods.totalVotesFor(web3.utils.asciiToHex('Rama')).call(console.log)
+
+> deployedContract.methods.voteForCandidate(web3.utils.asciiToHex('Rama')).send({from: '0x1773472db22b11b73c18d3e91f70c475b5786d53'}).then((f) => console.log(f))
